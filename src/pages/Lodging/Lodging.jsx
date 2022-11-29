@@ -7,6 +7,7 @@ import LodgingDetails from '../../components/LodgingDetails/LodgingDetails'
 import Collapse from '../../components/Collapse/Collapse'
 import './lodging.css'
 
+// Affichage des composants des pages logement
 export default function HousingPage() {
 
     let { id } = useParams()

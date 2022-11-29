@@ -1,5 +1,6 @@
 import Lodgings from "./lodgings.json"
 
+// Récupération des données des logements
 const getAllLodgings = () => {
   return Lodgings
 }

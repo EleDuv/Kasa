@@ -3,6 +3,7 @@ import './about.css'
 import AboutImage from '../../components/Images/AboutImage'
 import Collapse from '../../components/Collapse/Collapse'
 
+// Affichage des informations de la page à propos
 export default function About() {
     const content = [
         {

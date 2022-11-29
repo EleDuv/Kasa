@@ -7,6 +7,7 @@ import Header from "./components/Header/Header"
 import Lodging from './pages/Lodging/Lodging';
 import Footer from './components/Footer/Footer';
 
+// Routing
 function App() {
   return (
     <div className="App">

@@ -7,6 +7,7 @@ import houseLogo from "../../images/headerLogo/houseLogo.png"
 import sLogo from "../../images/headerLogo/sLogo.png"
 import aLogo from "../../images/headerLogo/aLogo.png"
 
+// Affichage du header
 export default function Header() {
     return (
         <div className="container">

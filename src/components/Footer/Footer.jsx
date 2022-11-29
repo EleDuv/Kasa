@@ -6,6 +6,7 @@ import houseLogo from "../../images/footerLogo/houseLogo.png"
 import sLogo from "../../images/footerLogo/sLogo.png"
 import aLogo from "../../images/footerLogo/aLogo.png"
 
+// Affichage du footer
 export default function Footer() {
     return (
         <div className="footer page">

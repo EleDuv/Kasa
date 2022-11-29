@@ -42,6 +42,10 @@
     font-size: 18px;;
 }
 
+.displayNone {
+    display: none;
+}
+
 @media screen and (max-width: 525px) {
     .imageSlider {
         width: 335px;
@@ -50,7 +54,6 @@
     .leftArrow {
         left: 18px;
         top: 88px;
-        height: 20px;
     }
     .rightArrow {
         right: 18px;

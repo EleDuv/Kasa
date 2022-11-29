@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './imageSlider.css'
 
+// Affichage du slider des pages logement
 export default function ImageSlider({slides}) {
     const [currentPosition, setCurrentPosition] = useState(0)
 
@@ -12,7 +13,8 @@ export default function ImageSlider({slides}) {
         setCurrentPosition(currentPosition === slides.length -1 ? 0 : currentPosition + 1)
     }
 
-    return (
+        if (slides.length > 1 ) {
+            return (
         <div className="imageSlider">
             <img  className="slide" src={slides[currentPosition]} alt={slides.description}/>
             <div className="leftArrow" onClick={goToPrevious}></div>
@@ -20,5 +22,16 @@ export default function ImageSlider({slides}) {
             <p className="rollingNumber">{currentPosition + 1}/{slides.length} </p>
         </div>
     )
+
+           } else {
+            return (
+                <div className="imageSlider">
+                    <img  className="slide" src={slides[currentPosition]} alt={slides.description}/>
+                    <p className="rollingNumber">{currentPosition + 1}/{slides.length} </p>
+                </div>
+            )
+           }
+
+    
 
 }
