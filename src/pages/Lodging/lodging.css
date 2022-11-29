@@ -1,0 +1,41 @@
+.collapse {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    column-gap: 76px;
+    padding-bottom: 50px;
+}
+
+.collapseTitle {
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.collapseDescription {
+    border-radius: 10px;
+}
+
+.collapseContainer {
+    border-radius: 10px;
+    width: 50%;
+    height: 250px;
+}
+
+.housingPage {
+    margin: 40px 0px;
+}
+
+
+@media screen and (min-width: 526px) and (max-width: 770px) {
+    .collapse {
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 525px) {
+    .collapse {
+        flex-direction: column;
+    } 
+}

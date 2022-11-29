@@ -1,0 +1,36 @@
+.homeImageContainer {
+    position: relative;
+    height: 170px;
+    width: 90%;
+}
+
+.homeImage {
+    background-image: url(../../images/homeImage/homeImage.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    filter: brightness(0.75);
+    height: 100%;
+}
+
+.homeImageContainer p {
+    color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 48px;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    margin: 0 auto;
+    width: 700px;
+}
+
+@media screen and (max-width: 915px) {
+    .homeImageContainer p {
+        display: flex;
+        justify-content: center;;
+        font-size: 24px;
+    }
+}

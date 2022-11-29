@@ -1,0 +1,147 @@
+.lodgingDetails {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #FF6060;
+}
+
+.lodgingDetailsInfos h1{
+    font-size: 36px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.lodgingDetailsInfos p{
+    font-size: 18px;
+}
+
+.lodgingDetailsHost {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.lodgingDetailsHost p {
+    font-size: 18px;
+    width: min-content;
+    text-align: right;
+}
+
+.lodgingDetailsHostName img {
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+.lodgingDetailsHostName {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+
+.lodgingDetailsRating img {
+    width: 30px;
+    height: 30px;
+}
+
+.tags {
+    display: flex;
+    flex-direction: row;
+}
+.tag {
+    height: 25px;
+    padding: 7px 30px 0px 30px;
+    color: white;
+    background-color:#FF6060;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 526px) and (max-width: 770px) {
+    .lodgingDetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lodgingDetailsInfos h1 {
+        font-size: 23px;
+    }
+
+    .lodgingDetailsInfos p {
+        font-size: 19px;
+    }
+
+    .tag {
+        font-size: 15px;
+        height: 23px;
+    }
+
+    .lodgingDetailsHost {
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding: 25px 0px 25px 0px;
+    }
+
+    .lodgingDetailsHostName p {
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .lodgingDetailsHostName img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .lodgingDetailsHostRating img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+@media screen and (max-width: 525px) {
+    .lodgingDetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lodgingDetailsInfos h1 {
+        font-size: 18px;
+    }
+
+    .lodgingDetailsInfos p {
+        font-size: 14px;
+    }
+
+    .tag {
+        font-size: 10px;
+        height: 18px;
+    }
+
+    .lodgingDetailsHost {
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding: 25px 0px 25px 0px;
+    }
+
+    .lodgingDetailsHostName p {
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .lodgingDetailsHostName img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .lodgingDetailsHostRating img{
+        width: 15px;
+        height: 15px;
+    }
+}
+

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'monsterrat';
+    src: url('../../fonts/Montserrat-Light.otf') format('otf');
+}
+
+.footer {
+    background-color: #000000;
+    height: 150px;
+    width: 100%;
+    bottom: 0px;
+    font-family : 'Montserrat-Light.otf', Arial;
+    position: relative;
+}
+
+.footerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 8px
+}
+
+.footerLogo .kLogo {
+    height: 31px;
+}
+
+.footerLogo .houseLogo {
+    height: 26px;
+}
+
+.footerLogo .sLogo {
+    height: 22px;
+}
+
+.footerLogo .aLogo {
+    height: 23px;
+}
+
+.footer h2 {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 100;
+    padding-bottom: 26px;
+}

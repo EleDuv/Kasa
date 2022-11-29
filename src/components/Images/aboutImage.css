@@ -1,0 +1,10 @@
+.aboutImage {
+    background-image: url(../../images/aboutImage/Background.jpeg);
+    height: 223px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    filter: brightness(0.75);
+}

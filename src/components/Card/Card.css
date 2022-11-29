@@ -1,0 +1,31 @@
+.card {
+    position: relative;
+    width: 340px;
+    height: 340px;
+    padding: 3%
+}
+
+.lodgingCover {
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.card h2 {
+    position: absolute;
+    left: 11.88%;
+    right: 5.88%;
+    top: 75.82%;
+    bottom: 5.88%;
+    max-width: 300px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.card a {
+    text-decoration: none;
+}
